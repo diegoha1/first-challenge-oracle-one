@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encrypter</title>
+    <link  rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img class="logo" src="Images/Vector.png" alt="logo">
+    </header>
+    <main>
+        <div class="text-field">
+            <textarea class="text-input" placeholder="Write here "></textarea>
+        </div>
+        <div class="alert-message">
+            <p>&#9432; Only lowercase letters and no accent</p>
+        </div>
+        <div class="buttons-left">
+            <input class="encrypt-button buttons" type="button" value="Encrypt">
+            <input class="decrypt-button buttons" type="button" value="Decrypt">
+        </div>
+        <section class="encrypter-area">
+            <div class="doll">
+                <img src="Images/Muñeco.png" alt="doll">
+                <h2>No text was found</h2>
+                <p>Enter the text you want to encrypt or decrypt</p>
+            </div>
+            <div class="button-right">
+                <input class="copy-button buttons" type="button" value="Copy">
+            </div>
+            <div class="show-text">
+                <p class="text-result"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
